@@ -24,6 +24,15 @@
     <ClCompile Include="..\Classes\GameScene.cpp">
       <Filter>Classes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WelcomeScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlaneLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -41,13 +50,41 @@
     <ClInclude Include="..\Classes\GameScene.h">
       <Filter>Classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WelcomeScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlaneLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Resources\ui\shoot.plist" />
     <None Include="..\Resources\ui\shoot_background.plist" />
+    <None Include="..\Resources\shoot.plist" />
+    <None Include="..\Resources\shoot_background.plist" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\ui\shoot.png" />
     <Image Include="..\Resources\ui\shoot_background.png" />
+    <Image Include="..\Resources\shoot.png" />
+    <Image Include="..\Resources\shoot_background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\sound\achievement.mp3" />
+    <Media Include="..\Resources\sound\big_spaceship_flying.mp3" />
+    <Media Include="..\Resources\sound\bullet.mp3" />
+    <Media Include="..\Resources\sound\button.mp3" />
+    <Media Include="..\Resources\sound\enemy1_down.mp3" />
+    <Media Include="..\Resources\sound\enemy2_down.mp3" />
+    <Media Include="..\Resources\sound\enemy3_down.mp3" />
+    <Media Include="..\Resources\sound\game_music.mp3" />
+    <Media Include="..\Resources\sound\game_over.mp3" />
+    <Media Include="..\Resources\sound\get_bomb.mp3" />
+    <Media Include="..\Resources\sound\get_double_laser.mp3" />
+    <Media Include="..\Resources\sound\out_porp.mp3" />
+    <Media Include="..\Resources\sound\use_bomb.mp3" />
   </ItemGroup>
 </Project>

@@ -1,5 +1,6 @@
 //GameLayer.h
 #include "cocos2d.h"
+#include "PlaneLayer.h"
 
 USING_NS_CC;
 
@@ -19,5 +20,6 @@ public:
 private:
 	CCSprite* background1;
 	CCSprite* background2;
+	PlaneLayer* planeLayer;
 
 };

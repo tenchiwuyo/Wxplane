@@ -8,6 +8,7 @@ USING_NS_CC;
 class WelcomeLayer : public CCLayer
 {
 public:
+
 	WelcomeLayer(void);
 
 	~WelcomeLayer(void);
@@ -15,6 +16,13 @@ public:
 	virtual bool init();
 
 	CREATE_FUNC(WelcomeLayer);
-protected:
-private:
+
+	void loadingDone(CCNode* pNode);
+
+//	virtual void keyBackClicked();
+
+//	bool isHaveSaveFile();
+
+//	void getHighestHistoryScore();
+
 };

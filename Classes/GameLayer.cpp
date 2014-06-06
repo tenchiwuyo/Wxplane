@@ -5,6 +5,7 @@ GameLayer::GameLayer(void)
 {
 	background1=NULL;
 	background2=NULL;
+	planeLayer=NULL;
 }
 
 GameLayer::~GameLayer(void)
@@ -33,6 +34,9 @@ bool GameLayer::init()
 		this->addChild(background2);
 
 		this->schedule(schedule_selector(GameLayer::backgroundMove),0.01f);
+
+		this->planeLayer=PlaneLayer::create();
+		this->addChild(planeLayer);
 
 		bRet=true;
 
